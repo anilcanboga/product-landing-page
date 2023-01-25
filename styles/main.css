@@ -45,3 +45,14 @@ body {
   gap: 8px;
   border-radius: 8px;
 }
+
+.primary-button {
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: var(--primary-shadow);
+}
+
+.secondary-button {
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
