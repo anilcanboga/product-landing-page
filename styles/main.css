@@ -56,3 +56,55 @@ body {
   background-color: var(--primary-light);
   color: var(--primary);
 }
+
+/* Header */
+
+header {
+  margin-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+}
+
+nav {
+  display: flex;
+  color: var(--dark);
+  gap: 62px;
+}
+
+nav a:hover,
+nav a.active {
+  font-weight: 500;
+}
+
+header .primary-button {
+  padding: 12px 24px;
+}
+
+section {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+section .section-introduction {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50ch;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+section .section-sub-title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: var(--font-size-xs);
+  color: var(--dark);
+}
+
+section .section-title {
+  font-size: var(--font-size-xxl);
+  color: var(--dark);
+}
